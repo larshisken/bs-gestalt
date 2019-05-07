@@ -3,4 +3,8 @@
 .bsb.lock
 npm-debug.log
 /lib/bs/
+/lib/ocaml/
+*.log
+.bsb.lock
+/src/**/*.bs.js
 /node_modules/

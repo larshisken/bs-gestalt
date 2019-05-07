@@ -7,11 +7,22 @@
     "clean": "bsb -clean-world"
   },
   "keywords": [
-    "BuckleScript"
+    "BuckleScript",
+    "Gestalt",
+    "ReasonReact",
+    "React"
   ],
-  "author": "",
+  "author": "Lars Hisken <larshisken@protonmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "bs-platform": "^5.0.2"
+    "bs-platform": "^5.0.2",
+    "gestalt": "^0.96.0",
+    "reason-react": "^0.7.0"
+  },
+  "peerDependencies": {
+    "gestalt": "^0.96.0",
+    "reason-react": "^0.7.0",
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5"
   }
 }
