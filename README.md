@@ -1,18 +1,37 @@
-# Basic Reason Template
+# Reason bindings for [Gestalt](https://github.com/pinterest/gestalt)
 
-Hello! This project allows you to quickly get started with Reason and BuckleScript. If you wanted a more sophisticated version, try the `react` template (`bsb -theme react -init .`).
+The bindings are a work in progress, I'm adding things on the go. If you miss anything, or want to see something change, feel free to send me a PR.
 
-# Build
+## Installation
 ```
-npm run build
-```
-
-# Build + Watch
-
-```
-npm run start
+yarn add bs-gestalt
+yarn add gestalt
 ```
 
+Add `bs-gestalt` to your `bs-dependencies` in `bsconfig.json`.
 
-# Editor
-If you use `vscode`, Press `Windows + Shift + B` it will build automatically
+```json
+{
+  "bs-dependencies": ["bs-gestalt"]
+}
+```
+
+## Usage
+
+```reason
+open Gestalt;
+
+[@react.component]
+let make = () =>
+  <Box display=`flex alignContent=`around>
+    {React.string("Hello World!")}
+  </Box>;
+```
+
+## Components
+
+* [x] Box
+* [ ] Text
+* [ ] Heading
+* [ ] Column
+* [ ] ...
