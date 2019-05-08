@@ -30,8 +30,8 @@ let make = () =>
 
 ## Components
 
-* [ ] Avatar
-* [ ] Badge
+* [x] Avatar
+* [x] Badge
 * [x] Box
 * [x] Button
 * [x] Card
@@ -40,17 +40,17 @@ let make = () =>
 * [x] Column
 * [x] Container
 * [ ] Divider
-* [ ] Flyout
+* [x] Flyout
 * [ ] GroupAvatar
-* [ ] Heading
-* [ ] Icon
+* [x] Heading
+* [x] Icon
 * [x] IconButton
-* [ ] Image
-* [ ] Label
+* [x] Image
+* [x] Label
 * [ ] Layer
 * [ ] Letterbox
 * [x] Link
-* [ ] Mask
+* [x] Mask
 * [ ] Masonry
 * [ ] Modal
 * [ ] Pog
@@ -59,14 +59,14 @@ let make = () =>
 * [ ] SearchField
 * [ ] SegmentedControl
 * [ ] SelectList
-* [ ] Spinner
+* [x] Spinner
 * [ ] Sticky
 * [ ] Switch
 * [x] Tabs
-* [ ] Text
+* [x] Text
 * [ ] TextArea
 * [x] TextField
 * [ ] Toast
-* [ ] Tooltip
+* [x] Tooltip
 * [x] Touchable
 * [ ] Video
