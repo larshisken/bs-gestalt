@@ -14,6 +14,10 @@
   ],
   "author": "Lars Hisken <larshisken@protonmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:larshisken/bs-gestalt.git"
+  },
   "devDependencies": {
     "bs-platform": "^5.0.2",
     "gestalt": "^0.96.0",
