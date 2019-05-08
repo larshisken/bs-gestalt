@@ -30,8 +30,43 @@ let make = () =>
 
 ## Components
 
+* [ ] Avatar
+* [ ] Badge
 * [x] Box
-* [ ] Text
+* [x] Button
+* [x] Card
+* [ ] Checkbox
+* [ ] Collage
+* [x] Column
+* [x] Container
+* [ ] Divider
+* [ ] Flyout
+* [ ] GroupAvatar
 * [ ] Heading
-* [ ] Column
-* [ ] ...
+* [ ] Icon
+* [x] IconButton
+* [ ] Image
+* [ ] Label
+* [ ] Layer
+* [ ] Letterbox
+* [x] Link
+* [ ] Mask
+* [ ] Masonry
+* [ ] Modal
+* [ ] Pog
+* [ ] Pulsar
+* [ ] RadioButton
+* [ ] SearchField
+* [ ] SegmentedControl
+* [ ] SelectList
+* [ ] Spinner
+* [ ] Sticky
+* [ ] Switch
+* [x] Tabs
+* [ ] Text
+* [ ] TextArea
+* [x] TextField
+* [ ] Toast
+* [ ] Tooltip
+* [x] Touchable
+* [ ] Video
