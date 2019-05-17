@@ -57,7 +57,7 @@ let make = () =>
 * [ ] Pulsar
 * [ ] RadioButton
 * [ ] SearchField
-* [ ] SegmentedControl
+* [x] SegmentedControl
 * [ ] SelectList
 * [x] Spinner
 * [ ] Sticky
