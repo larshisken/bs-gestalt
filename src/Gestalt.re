@@ -19,6 +19,7 @@ module Text = Gestalt__Text;
 module Tooltip = Gestalt__Tooltip;
 module Avatar = Gestalt__Avatar;
 module Flyout = Gestalt__Flyout;
+module SegmentedControl = Gestalt__SegmentedControl;
 
 module Style = Gestalt__Style;
 module Event = Gestalt__Event;

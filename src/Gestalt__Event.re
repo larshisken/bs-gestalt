@@ -5,4 +5,6 @@ type t('a) = {
   value: string,
   [@bs.optional]
   activeTabIndex: int,
+  [@bs.optional]
+  activeIndex: int,
 };
