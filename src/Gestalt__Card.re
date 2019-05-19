@@ -4,8 +4,8 @@ external make:
     ~active: bool=?,
     ~children: React.element=?,
     ~image: React.element=?,
-    ~onMouseEnter: Gestalt__Event.t(ReactEvent.Mouse.t)=?,
-    ~onMouseLeave: Gestalt__Event.t(ReactEvent.Mouse.t)=?,
+    ~onMouseEnter: Gestalt__Event.t(ReactEvent.Mouse.t) => unit=?,
+    ~onMouseLeave: Gestalt__Event.t(ReactEvent.Mouse.t) => unit=?,
     unit
   ) =>
   React.element =
