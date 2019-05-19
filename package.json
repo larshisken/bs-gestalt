@@ -1,7 +1,7 @@
 {
   "name": "bs-gestalt",
   "description": "Reason bindings for Gestalt",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "scripts": {
     "build": "bsb -make-world",
     "start": "bsb -make-world -w",
