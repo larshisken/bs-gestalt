@@ -135,7 +135,7 @@ external make:
              | [@bs.as "view-type-list"] `viewTypeList
            ],
     ~accessibilityHaspopup: bool=?,
-    ~accessibilityLabel: string=?,
+    ~accessibilityLabel: string,
     ~bgColor: [@bs.string] [
                 | `transparent
                 | `transparentDarkGray
