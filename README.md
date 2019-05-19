@@ -52,7 +52,7 @@ let make = () =>
 * [x] Link
 * [x] Mask
 * [ ] Masonry
-* [ ] Modal
+* [x] Modal
 * [ ] Pog
 * [ ] Pulsar
 * [ ] RadioButton
