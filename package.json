@@ -20,13 +20,13 @@
   "bugs": "https://github.com/larshisken/bs-gestalt/issues",
   "devDependencies": {
     "bs-platform": "^5.0.2",
-    "gestalt": "^0.96.0",
+    "gestalt": "^0.98.0",
     "reason-react": "^0.7.0"
   },
   "peerDependencies": {
-    "gestalt": "^0.96.0",
-    "reason-react": "^0.7.0",
-    "react": "^16.8.5",
-    "react-dom": "^16.8.5"
+    "gestalt": "^0.98.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "reason-react": "^0.7.0"
   }
 }

@@ -11,7 +11,6 @@ external make:
                      =?,
     ~disabled: bool=?,
     ~errorMessage: string=?,
-    ~hasError: bool=?,
     ~id: string,
     ~name: string=?,
     ~onBlur: Gestalt__Event.t(ReactEvent.Focus.t) => unit=?,
