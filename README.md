@@ -1,6 +1,6 @@
 # Reason bindings for [Gestalt](https://github.com/pinterest/gestalt)
 
-![npm](https://img.shields.io/npm/v/bs-gestalt.svg)
+[![npm](https://img.shields.io/npm/v/bs-gestalt.svg)](https://www.npmjs.com/package/bs-gestalt)
 
 The bindings are a work in progress, I'm adding things on the go. If you miss anything, or want to see something change, feel free to send me a PR.
 
