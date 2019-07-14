@@ -21,6 +21,7 @@ module Avatar = Gestalt__Avatar;
 module Flyout = Gestalt__Flyout;
 module SegmentedControl = Gestalt__SegmentedControl;
 module Modal = Gestalt__Modal;
+module Letterbox = Gestalt__Letterbox;
 
 module Style = Gestalt__Style;
 module Event = Gestalt__Event;
