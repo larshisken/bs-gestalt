@@ -30,6 +30,9 @@ external make:
     ~id: string=?,
     ~overflow: [@bs.string] [ | `normal | `breakWord]=?,
     ~size: [@bs.string] [ | `xs | `sm | `md | `lg | `xl]=?,
+    ~smSize: [@bs.string] [ | `xs | `sm | `md | `lg | `xl]=?,
+    ~mdSize: [@bs.string] [ | `xs | `sm | `md | `lg | `xl]=?,
+    ~lgSize: [@bs.string] [ | `xs | `sm | `md | `lg | `xl]=?,
     ~truncate: bool=?,
     unit
   ) =>

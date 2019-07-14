@@ -55,7 +55,13 @@ external make:
             ]
               =?,
     ~column: int=?,
+    ~smColumn: int=?,
+    ~mdColumn: int=?,
+    ~lgColumn: int=?,
     ~direction: [@bs.string] [ | `row | `column]=?,
+    ~smDirection: [@bs.string] [ | `row | `column]=?,
+    ~mdDirection: [@bs.string] [ | `row | `column]=?,
+    ~lgDirection: [@bs.string] [ | `row | `column]=?,
     ~display: [@bs.string] [
                 | `none
                 | `flex
@@ -64,6 +70,30 @@ external make:
                 | `visuallyHidden
               ]
                 =?,
+    ~smDisplay: [@bs.string] [
+                  | `none
+                  | `flex
+                  | `block
+                  | `inlineBlock
+                  | `visuallyHidden
+                ]
+                  =?,
+    ~mdDisplay: [@bs.string] [
+                  | `none
+                  | `flex
+                  | `block
+                  | `inlineBlock
+                  | `visuallyHidden
+                ]
+                  =?,
+    ~lgDisplay: [@bs.string] [
+                  | `none
+                  | `flex
+                  | `block
+                  | `inlineBlock
+                  | `visuallyHidden
+                ]
+                  =?,
     ~fit: bool=?,
     ~flex: [@bs.string] [ | `grow | `shrink | `none]=?,
     ~height: string=?,
@@ -81,10 +111,29 @@ external make:
     ~mdMargin: bool=?,
     ~lgMargin: bool=?,
     ~marginBottom: int=?,
+    ~smMarginBottom: int=?,
+    ~mdMarginBottom: int=?,
+    ~lgMarginBottom: int=?,
     ~marginEnd: int=?,
+    ~smMarginEnd: int=?,
+    ~mdMarginEnd: int=?,
+    ~lgMarginEnd: int=?,
+    ~marginLeft: int=?,
+    ~smMarginLeft: int=?,
+    ~mdMarginLeft: int=?,
+    ~lgMarginLeft: int=?,
     ~marginRight: int=?,
+    ~smMarginRight: int=?,
+    ~mdMarginRight: int=?,
+    ~lgMarginRight: int=?,
     ~marginStart: int=?,
+    ~smMarginStart: int=?,
+    ~mdMarginStart: int=?,
+    ~lgMarginStart: int=?,
     ~marginTop: int=?,
+    ~smMarginTop: int=?,
+    ~mdMarginTop: int=?,
+    ~lgMarginTop: int=?,
     ~maxHeight: string=?,
     ~maxWidth: string=?,
     ~minHeight: string=?,
@@ -99,8 +148,17 @@ external make:
                ]
                  =?,
     ~padding: int=?,
+    ~smPadding: int=?,
+    ~mdPadding: int=?,
+    ~lgPadding: int=?,
     ~paddingX: int=?,
+    ~smPaddingX: int=?,
+    ~mdPaddingX: int=?,
+    ~lgPaddingX: int=?,
     ~paddingY: int=?,
+    ~smPaddingY: int=?,
+    ~mdPaddingY: int=?,
+    ~lgPaddingY: int=?,
     ~position: [@bs.string] [ | `static | `absolute | `relative | `fixed]=?,
     ~right: bool=?,
     ~shape: [@bs.string] [
